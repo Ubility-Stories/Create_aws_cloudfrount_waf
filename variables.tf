@@ -19,19 +19,11 @@ variable "price-class" {
     default = "PriceClass_All"
   
 }
-variable "waf-acl" {
-    type = string
-    default = "7b279cb3-2784-4f06-ba02-eca2c443df39"
-  
-}
-variable "certificate-arn" {
-    type = string
-    default = ""
-  
-}
+
+
 variable "waf-name" {
     type = string
-    default = "dtp-web"
+    
   
 }
 
